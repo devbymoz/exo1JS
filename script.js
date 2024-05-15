@@ -3,20 +3,14 @@ const form = document.createElement("form");
 // Input Euro
 const inputEuro = document.createElement("input");
 inputEuro.className = "input";
+inputEuro.type = "text";
 inputEuro.placeholder = "Euros";
-
-const h2Euro = document.createElement("h2");
-h2Euro.innerHTML = "Euros"
-inputEuro.before(h2Euro);
 
 // Input Suisse
 const inputSwiss = document.createElement("input");
 inputSwiss.className = "input";
+inputSwiss.type = "text";
 inputSwiss.placeholder = "Franc Suisse";
-
-const h2Swiss = document.createElement("h2");
-h2Swiss.innerHTML = "Franc Suisse";
-inputSwiss.before(h2Swiss);
 
 // Ajout des éléments dans le DOM
 form.appendChild(inputEuro);
