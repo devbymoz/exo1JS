@@ -1,0 +1,15 @@
+.input {
+  display: block;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 15px 10px;
+  min-width: 260px;
+  margin-top: 12px;
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 22px;
+  margin-top: 22px;
+  margin-bottom: 0;
+}
